@@ -334,6 +334,7 @@
     .form__inner {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
 
     .form__btn {
@@ -342,10 +343,6 @@
         align-self: center;
         padding: 14px 33px;
         font-size: 12px;
-    }
-
-    .form__label {
-        padding-left: 40px;
     }
 
     .footer-left {

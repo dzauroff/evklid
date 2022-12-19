@@ -119,6 +119,19 @@
         margin-bottom: 42px;
     }
 
+    .form__inner {
+        display: flex;
+        text-align: center;
+    }
+
+    .form__btn {
+        padding: 17px 21px;
+    }
+
+    .checkbox-text {
+        top: 17px;
+    }
+
     .footer__list {
         display: none;
     }

@@ -35,18 +35,30 @@
                         <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
                     </ul>
                 </nav>
-                <div class="search-box">
-                    <input class="search-txt" type="text" name="" placeholder="Что будем искать?">
-                    <a class="search-btn" href="#"> <button class="search btn-reset">
-                        <span>
-                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="19.5138" y="18.5495" width="8" height="2" transform="rotate(45 19.5138 18.5495)" fill="#333333"/>
-                            <circle cx="11.5" cy="11.5" r="10.5" stroke="#333333" stroke-width="2"/>
-                            </svg>
-                        </span>
-                    </button>    
-    </a>
-                </div>
+                <button class="search" id="open-search-form">
+                    <span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="7.56126" height="1.89031" transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6064 17.3762)" fill="black"/>
+                            <path d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z" stroke="black" stroke-width="2"/>
+                        </svg>                                                                        
+                    </span>
+                </button>
+                <form action="#" class="search-form" id="search-form">
+                    <input class="search-form__input" type="text" placeholder="Что будем искать">
+                    <button type="submit" class="search-form__send btn-reset" id="search-form-send">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="7.56126" height="1.89031" transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6064 17.3762)" fill="#FF9900"/>
+                            <path d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z" stroke="#FF9900" stroke-width="2"/>
+                        </svg>                                                                                                            
+                    </button>
+                    <button type="submit" class="search-form__close btn-reset" id="search-form-close">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="8.9541" y="7.30432" width="11.6645" height="2.33291" transform="rotate(45 8.9541 7.30432)" fill="#CACACA"/>
+                            <rect x="7.30469" y="15.5524" width="11.6645" height="2.33291" transform="rotate(-45 7.30469 15.5524)" fill="#CACACA"/>
+                            <circle cx="12" cy="12" r="11" stroke="#CACACA" stroke-width="2"/>
+                        </svg>                              
+                    </button>
+                </form>
                 </div>
             </div>
     </header>
