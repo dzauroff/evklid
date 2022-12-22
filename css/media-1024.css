@@ -62,7 +62,6 @@
 
     .search {
         position: relative;
-        z-index: 5;
         font-size: 22px;
         margin-right: 0;
     }
