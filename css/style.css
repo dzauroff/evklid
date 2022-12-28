@@ -89,10 +89,9 @@ a {
 }
 
 .swiper-pagination-bullet {
-    margin: 15px 10px!important;
-    width: 15px;
-    height: 15px;
-    background-color: var(--white-color);
+    width: 12px;
+    height: 12px;
+    background: var(--white-color);
 }
 
 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {

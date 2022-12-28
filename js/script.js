@@ -1,6 +1,6 @@
 /* slider */
 
-var swiper = new Swiper('.swiper-container', {
+ varswiper = new Swiper('.swiper-container', {
     autoplay: {
         delay: 4000,
     }, 
