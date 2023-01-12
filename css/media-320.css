@@ -92,6 +92,10 @@
         border-radius: 8px;
     }
 
+    .swiper-container {
+        min-height: 302px;
+    }
+
     .swiper-slide {
         text-align: center;
         padding: 60px 22px 0;

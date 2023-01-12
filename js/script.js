@@ -1,16 +1,19 @@
-/* slider */
-
- varswiper = new Swiper('.swiper-container', {
+const swiper = new Swiper('.swiper-container', {
     autoplay: {
         delay: 4000,
-    }, 
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true
+        loop: true
     },
-    allowTouchMove: true,
-    loop: true,
-});
+ 
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+    },
+    
+   // area-label
+    a11y: {
+      paginationBulletMessage: 'Тут название слайда {{index}}',
+    }
+  });
 
 /* tabs */
 
